@@ -5,11 +5,13 @@
     font-family:sans-serif;
 }
 
-body{
+body
+{
     background-color: #ecf4fb;
 }
 
-h1 {
+h1 
+{
     /* margin: 30px auto 0;
     width: 21%; */
     display:flex;
@@ -22,10 +24,10 @@ h1 {
     display:flex;
     flex-wrap: wrap;
     justify-content: center
-    
 }
 
-.img-gallery img{
+.img-gallery img
+{
     width:30%;
     margin:40px auto 50px;
     cursor:pointer;
