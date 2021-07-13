@@ -5,5 +5,34 @@
     font-family:sans-serif;
 }
 
+body{
+    background-color: #ecf4fb;
+}
 
+h1 {
+    /* margin: 30px auto 0;
+    width: 21%; */
+    display:flex;
+    margin-top:2rem;
+    justify-content:center;
+}
 
+.img-gallery
+{   
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center
+    
+}
+
+.img-gallery img{
+    width:30%;
+    margin:40px auto 50px;
+    cursor:pointer;
+}
+
+.img-gallery img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow:0 32px 75px rgba(68,77,136,0.2);
+}
