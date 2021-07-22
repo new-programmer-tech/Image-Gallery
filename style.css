@@ -22,13 +22,13 @@ h1 {
     display:flex;
     flex-wrap: wrap;
     justify-content: center
-    
 }
 
 .img-gallery img{
-    width:30%;
-    margin:40px auto 50px;
+    width:21%;
+    margin:40px 10px 50px;
     cursor:pointer;
+    transition: all 0.8s;
 }
 
 .img-gallery img:hover{
@@ -44,12 +44,23 @@ h1 {
     position: fixed;
     top:0;
     left:0;
-    display:flex;
+    display:none;
     justify-content: center;
     align-items: center; 
+    z-index:1;
 }
 
 .full-img img{
     width: 35%;
     max-width: px;
+}
+
+.full-img span
+{
+    position:absolute;
+    font-size:30px;
+    top:5%;
+    right:5%;
+    color:aliceblue;
+    cursor:pointer;
 }
